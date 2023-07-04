@@ -18,13 +18,6 @@ Before using this script, ensure that you have the following prerequisites:
 - Windows operating system with Windows Terminal installed.
 - PowerShell version 5.1 or later.
 
-## Usage
-
-1. Open Windows PowerShell or PowerShell Integrated Scripting Environment (ISE).
-2. Copy and paste the script code into the PowerShell session.
-3. Modify the script as needed to customize the profile properties and binary/command to be executed.
-4. Run the script to create the new profile.
-
 Please note that the script creates a new profile in Windows Terminal's JSON configuration file. The profile will appear in the Windows Terminal application once the script is executed successfully.
 
 ## Configuration
