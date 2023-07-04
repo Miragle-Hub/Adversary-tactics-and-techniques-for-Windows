@@ -40,7 +40,7 @@ https://infosecwriteups.com/stealthy-persistence-while-using-windows-terminal-ff
 
 ## Disclaimer
 
-The "Windows Terminal Profile Creator" script is provided for educational and informational purposes only. The author and maintainers of this script are not responsible for any misuse, damage, or illegal activities that may result from using this script. Use it responsibly and ensure that you comply with all legal and ethical guidelines when using this script or any other tools for security-related purposes.
+The scripts are provided for educational and informational purposes only. The author and maintainers of this script are not responsible for any misuse, damage, or illegal activities that may result from using this script. Use it responsibly and ensure that you comply with all legal and ethical guidelines when using this script or any other tools for security-related purposes.
 
 ## License
 
