@@ -7,9 +7,11 @@ Sub-technique of:  T1546
 ## Scripts
 - [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
 
-# [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
+Automates the process of creating a new profile in Windows Terminal with a custom binary. This script can be used to achieve persistence by adding a customized profile that runs a specific binary or command upon opening Windows Terminal.
 
-The "Windows Terminal Profile Creator" script is a PowerShell script that automates the process of creating a new profile in Windows Terminal with a custom binary. This script can be used to achieve persistence by adding a customized profile that runs a specific binary or command upon opening Windows Terminal.
+- [Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
+  
+Simplifies the creation of shortcuts.  This script can be used to achieve persistence by adding a shortcut link that runs a specific binary or command upon opening. Currenlty the script has the MSEdge icon to remain stealthy please change it according to your need.
 
 ## Prerequisites
 
