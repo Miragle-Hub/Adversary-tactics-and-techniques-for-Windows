@@ -1,10 +1,17 @@
-# Persistence-in-Windows
-Exploring Persistence Technique [TA0003] in Windows machine 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- [Command to Download Files with Chrome_proxy.exe/chrome.exe in Incognito Mode and Minimized Window](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/26746b045ebb16b730dc8c05cb092ed593376944/Lateral%20Movement%20/DownloadFileChrome_proxy.exe)
+- [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
+- [Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
 
 
 ## Scripts
+
+- [Command to Download Files with Chrome_proxy.exe/chrome.exe in Incognito Mode and Minimized Window](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/26746b045ebb16b730dc8c05cb092ed593376944/Lateral%20Movement%20/DownloadFileChrome_proxy.exe)
+  - Usecase: Download file from the internet
+  - Privileges required: User
+  - MITRE ATT&CK®: T1105: Ingress Tool Transfer
+  - Chrome will launch in Incognito mode and download the file.
+
 - [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
 
 ID: T1546.013 - Event Triggered Execution
