@@ -1,10 +1,10 @@
 ## "Adversary Tactics and Techniques for Windows" 
 A GitHub repository that focuses on documenting and providing insights into the tactics, techniques, and procedures (TTPs) employed by adversaries targeting the Windows operating system. It serves as a valuable resource for security professionals, researchers, and anyone interested in understanding and defending against cyber threats on Windows-based systems.
 
-- [Microsoft VS Code spawns cmd.exe as a child process of code.exe and executes the ping command.](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/main/Execution/Microsoft%20VS%20Code]
-- [Command to Download Files with Chrome_proxy.exe/chrome.exe in Incognito Mode and Minimized Window](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/26746b045ebb16b730dc8c05cb092ed593376944/Lateral%20Movement%20/DownloadFileChrome_proxy.exe)
-- [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
-- [Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
+- Execution              -  [Microsoft VS Code spawns cmd.exe as a child process of code.exe and executes the ping command.](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/main/Execution/Microsoft%20VS%20Code)]
+- Ingress Tool Transfer  -  [Command to Download Files with Chrome_proxy.exe/chrome.exe in Incognito Mode and Minimized Window](https://github.com/Miragle-Hub/Adversary-tactics-and-techniques-for-Windows/blob/26746b045ebb16b730dc8c05cb092ed593376944/Lateral%20Movement%20/DownloadFileChrome_proxy.exe)
+- Persistence            -   [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
+- Persistence            -   [Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
 
 
 ## Scripts
@@ -18,9 +18,7 @@ A GitHub repository that focuses on documenting and providing insights into the 
 
 - [Windows Terminal Profile Creator](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Persistence_P0C.ps1)
 
-ID: T1546.013 - Event Triggered Execution
-
-Automates the process of creating a new profile in Windows Terminal with a custom binary. This script can be used to achieve persistence by adding a customized profile that runs a specific binary or command upon opening Windows Terminal. Please note that the script creates a new profile in Windows Terminal's JSON configuration file. The profile will appear in the Windows Terminal application once the script is executed successfully.
+Could be categorized under ID: T1546.013 - Event Triggered Execution. Automates the process of creating a new profile in Windows Terminal with a custom binary. This script can be used to achieve persistence by adding a customized profile that runs a specific binary or command upon opening Windows Terminal. Please note that the script creates a new profile in Windows Terminal's JSON configuration file. The profile will appear in the Windows Terminal application once the script is executed successfully.
 
 ## Reference: 
 https://nasbench.medium.com/persistence-using-windows-terminal-profiles-5035d3fc86fe
@@ -29,9 +27,7 @@ https://infosecwriteups.com/stealthy-persistence-while-using-windows-terminal-ff
 
 - [Windows Shortcut Persistence Script](https://github.com/Miragle-Hub/Persistence-in-Windows/blob/main/Lnk%20Persistence.ps1)
 
-ID: T1547.009 - Boot or Logon Autostart Execution
-
-Simplifies the creation of shortcuts.  This script can be used to achieve persistence by adding a shortcut link that runs a specific binary or command upon opening. Currenlty the script has the MSEdge icon to remain stealthy please change it according to your need. By leveraging the behavior of shortcuts, this script allows you to execute arbitrary commands or launch malicious code every time the shortcut is accessed, ensuring your persistence on the target system.
+Categorized under ID: T1547.009 - Boot or Logon Autostart Execution. Simplifies the creation of shortcuts.  This script can be used to achieve persistence by adding a shortcut link that runs a specific binary or command upon opening. Currenlty the script has the MSEdge icon to remain stealthy please change it according to your need. By leveraging the behavior of shortcuts, this script allows you to execute arbitrary commands or launch malicious code every time the shortcut is accessed, ensuring your persistence on the target system.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
