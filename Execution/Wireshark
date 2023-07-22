@@ -4,3 +4,26 @@
 lua file content
 -- mention the binary that needs to be executed
  os.execute('C:\\Windows\\notepad.exe')
+
+LUA Scrip to download a file
+
+-- Function to download a file using curl
+function downloadFile(url, savePath)
+    local command = "start /B curl -o " .. savePath .. " " .. url
+    local result = os.execute(command)
+    
+    if result == 0 then
+        print("File downloaded successfully.")
+    else
+        print("Failed to download the file.")
+    end
+end
+
+-- Replace 'url_here' with the actual URL of the file to download
+local url = ""
+
+-- Replace 'filename.ext' with the desired name and extension of the downloaded file
+local savePath = ""
+
+-- Call the function to start the download
+downloadFile(url, savePath)
